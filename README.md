@@ -11,7 +11,7 @@ I am using this mechanism to restrict HTTP triggered flow by using below trigger
 
 @equals(triggeroutputs()['headers']['secret'],' your_Azure_Key_Vault_secret_value ')
 
-Degree of paralelism is set to 1 to prevent from running concurrent flow run.
+Degree of paralelism is set to 1 to prevent from running concurrent flow. This option once turned on can't be turned off so you can only change degree. Maximum value is 100 this mean that at the same time you will not be able to run more than 100 parallel approval flows which is ok in development but it should not be turned on in production.
  
 Please save flows:
  
