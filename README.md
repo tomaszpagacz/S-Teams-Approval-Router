@@ -23,10 +23,13 @@ to get URL address to use them in Environment Variables:
 Environment Variable "Application Owner email" - user with provided email will be notified that there is missing scenario - new SourceSystem.
 
 If Approval Solution is not installed in your Environment please read below webpage:
+
 https://support.microsoft.com/en-us/topic/power-automate-approvals-provisioning-overview-and-troubleshooting-2306313a-49fa-efde-c716-a34c573ec942
 
 Approval / Adaptive Card / Email / Approval webpage - all of them will be updated regardless of the response source.
 
 https://learn.microsoft.com/en-us/power-automate/approvals-known-issues
+
 https://learn.microsoft.com/en-us/power-automate/overview-adaptive-cards
+
 https://learn.microsoft.com/en-us/power-automate/metadata-update-sample
