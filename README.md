@@ -4,8 +4,11 @@
  TO-DO:
  
 You can remove Azure Key Vault actions.
+
 When you will import solution you need to establish connection with Azure Key Vault.
+
 I am using this mechanism to restrict HTTP triggered flow by using below trigger condition:
+
 @equals(triggeroutputs()['headers']['secret'],' your_Azure_Key_Vault_secret_value ')
 
 Degree of paralelism is set to 1 to prevent from running concurrent flow run.
@@ -13,11 +16,13 @@ Degree of paralelism is set to 1 to prevent from running concurrent flow run.
 Please save flows:
  
   Approval Router flow
+  
   Source System receiver
  
 to get URL address to use them in Environment Variables:
  
   Approval Router flow > Trigger input from sample service HTTP URI
+  
   Source System receiver > Source System receiver HTTP POST URL
  
 Environment Variable "Application Owner email" - user with provided email will be notified that there is missing scenario - new SourceSystem.
