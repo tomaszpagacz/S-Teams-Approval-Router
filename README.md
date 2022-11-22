@@ -1,5 +1,9 @@
 # S-Teams-Approval-Router
- This solution is to visualize how to route approvals from differrent systems to Teams Approvals.
+ This solution is to visualise how to route approvals from different systems to Teams Approvals.
+
+Remember that if you want to use it in production most likely it will be considered MULTIPLEXING so I highly recommend to buy relevant license for running this flow. When I was writing this comment relevant license was Power Automate per flow plan.
+
+https://learn.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq
  
  TO-DO:
  
